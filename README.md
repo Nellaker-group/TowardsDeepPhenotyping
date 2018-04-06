@@ -2,7 +2,7 @@
 
 ## Introduction:
 
-![Pipeline overview](dlp.pdf)
+![Pipeline overview](DLP.pdf)
 
 
 ## Nuclei detector
