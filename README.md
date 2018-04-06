@@ -1,7 +1,5 @@
 # Towards Deep Placental Histology Phenotyping
 
-## Introduction:
-
 ![Pipeline overview](DLP.png)
 
 
