@@ -25,11 +25,11 @@ A notebook is also provided (Evaluate_RetinaNet.ipynb) That evaluates performanc
 
 ## Model Weights:
 
-RetinaNet COCO-pretrained: <links here>
-  
-RetinaNet placenta histology:
-
-FCNN-Unet weights:
+| Model     | Weights                                                                     |
+|-----------|-----------------------------------------------------------------------------|
+| RetinaNet | [500MB](https://drive.google.com/open?id=1ngtaC3fi27EkgNvkJKvZnyyC1WzHiOkV) |   
+| FCNN      | [20MB](https://drive.google.com/open?id=1zOw_DYUpEEZ1-YVa9Q_ea9dXzXGyIFVd)  |   
+|           |                                                                             | 
 
 InceptionV3:
 
