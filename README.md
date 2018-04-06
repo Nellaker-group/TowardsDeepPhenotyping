@@ -5,6 +5,8 @@
 
 ## Nuclei detector
 
+All annotations are available in this repo along with training, validation and test images.
+
 To train RetinaNet with COCO-pretrained weights, run:
 
 ```
@@ -16,6 +18,9 @@ To evaluate our model (resnet50_csv_37.h5) on the test images, run:
 ```
 keras_retinanet/bin/evaluate.py --max-detections 500 --score-threshold 0.50 --save-path detections/ csv test_nuclei_annotations.csv class_mapping.txt ./snapshots/resnet50_csv_37.h5 
 ```
+
+A notebook is also provided (Evaluate_RetinaNet.ipynb) That evaluates performance on a large set of test images (14k).
+
 
 ## Cell classification and deep embeddings
 
