@@ -29,10 +29,6 @@ A notebook is also provided (Evaluate_RetinaNet.ipynb) That evaluates performanc
 |-----------|-----------------------------------------------------------------------------|
 | RetinaNet | [500MB](https://drive.google.com/open?id=1ngtaC3fi27EkgNvkJKvZnyyC1WzHiOkV) |   
 | FCNN      | [20MB](https://drive.google.com/open?id=1zOw_DYUpEEZ1-YVa9Q_ea9dXzXGyIFVd)  |   
-|           |                                                                             | 
-
-InceptionV3:
-
-InceptionResNetV2:
-
-Xception:
+| InceptionV3    |     [XMB](add URL)|
+|InceptionResNetV2 | [XMB](add URL)|
+| Xception | [XMB](add URL)|
