@@ -13,10 +13,15 @@ keras_retinanet/bin/evaluate.py --max-detections 500 --score-threshold 0.50 --sa
 ```
 ## Model Weights:
 
+include as a table
 RetinaNet COCO-pretrained: <links here>
+  
 RetinaNet placenta histology:
+
 FCNN-Unet weights:
 
 InceptionV3:
+
 InceptionResNetV2:
+
 Xception:
