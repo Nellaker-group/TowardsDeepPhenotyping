@@ -23,7 +23,7 @@ A notebook is also provided (Evaluate_RetinaNet.ipynb) That evaluates performanc
 
 ## Cell classification and deep embeddings
 
-## Model Weights:
+## Model Weights
 
 | Model     | Weights                                                                     |
 |-----------|-----------------------------------------------------------------------------|
