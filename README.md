@@ -2,6 +2,9 @@
 
 ## Introduction:
 
+![Pipeline overview](dlp.pdf)
+
+
 ## Nuclei detector
 
 To train RetinaNet with COCO-pretrained weights, run:
