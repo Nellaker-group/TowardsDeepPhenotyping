@@ -1,4 +1,4 @@
-# Towards Deep Phenotyping
+# Towards Deep Placental Histology Phenotyping
 
 ## Introduction:
 
