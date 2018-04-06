@@ -2,7 +2,6 @@
 
 ![Pipeline overview](DLP.png)
 
-
 ## Nuclei detector
 
 All annotations are available in this repo along with training, validation and test images.
