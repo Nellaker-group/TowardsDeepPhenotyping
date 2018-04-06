@@ -11,3 +11,12 @@ To evaluate the model on the test images:
 ```
 keras_retinanet/bin/evaluate.py --max-detections 500 --score-threshold 0.50 --save-path detections/ csv test_nuclei_annotations.csv class_mapping.txt ./snapshots/resnet50_csv_37.h5 
 ```
+## Model Weights:
+
+RetinaNet COCO-pretrained: <links here>
+RetinaNet placenta histology:
+FCNN-Unet weights:
+
+InceptionV3:
+InceptionResNetV2:
+Xception:
