@@ -25,7 +25,7 @@ A notebook is also provided (Evaluate_RetinaNet.ipynb) That evaluates performanc
 
 ## Model Weights and test images
 
-All test images (19GB - 14k images) are provided (here.)[https://drive.google.com/open?id=1EPu-FKU62zSKNBIVjQKSXvv53PexiNo2]
+All test images (19GB - 14k images) are provided [here.](https://drive.google.com/open?id=1EPu-FKU62zSKNBIVjQKSXvv53PexiNo2)
 
 | Model     | Weights                                                                     |
 |-----------|-----------------------------------------------------------------------------|
