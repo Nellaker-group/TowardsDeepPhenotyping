@@ -23,7 +23,9 @@ A notebook is also provided (Evaluate_RetinaNet.ipynb) That evaluates performanc
 
 ## Cell classification and deep embeddings
 
-## Model Weights
+## Model Weights and test images
+
+All test images (19GB - 14k images) are provided (here.)[https://drive.google.com/open?id=1EPu-FKU62zSKNBIVjQKSXvv53PexiNo2]
 
 | Model     | Weights                                                                     |
 |-----------|-----------------------------------------------------------------------------|
