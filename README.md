@@ -23,14 +23,12 @@ A notebook is also provided (Evaluate_RetinaNet.ipynb) That evaluates performanc
 
 ## Cell classification and deep embeddings
 
-## Model Weights and images
-
-Test time images (14k): As the archive is quite large (19GB) it is available for download [here](https://drive.google.com/open?id=1EPu-FKU62zSKNBIVjQKSXvv53PexiNo2).
+## Model Weights
 
 | Model     | Weights                                                                     |
 |-----------|-----------------------------------------------------------------------------|
 | RetinaNet | [500MB](https://drive.google.com/open?id=1ngtaC3fi27EkgNvkJKvZnyyC1WzHiOkV) |   
 | FCNN      | [20MB](https://drive.google.com/open?id=1zOw_DYUpEEZ1-YVa9Q_ea9dXzXGyIFVd)  |   
 | InceptionV3    | [199MB](https://drive.google.com/open?id=1L6kZBeJpRom3ZAUEUutoP1QGJuvllP1j) |
-|InceptionResNetV2 | [XMB](add URL)|
+|InceptionResNetV2 | [440MB](https://drive.google.com/open?id=1r6EhhbKCXcBgpSE1l33FLWwlfRzfzjZ4)|
 | Xception | [XMB](add URL)|
