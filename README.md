@@ -21,9 +21,13 @@ keras_retinanet/bin/evaluate.py --max-detections 500 --score-threshold 0.50 --sa
 A notebook is also provided (Evaluate_RetinaNet.ipynb) That evaluates performance on a large set of test images (14k).
 
 
-## Cell classification and deep embeddings
+## Cell classification and Deep Embeddings
 
-We trained an ensemble system to stratify placental cells into 5 distinct populations. We used 3 base classfiers (Inception, InceptionResNet, and Xception) which were fined tuned on our data set of histology images. Add data used to fine tuned our cell classifiers, can be found in the folder "Dataset/CellClassifiersData". Furthermore, the scripts used to train all base classifers are collected in "FineTuningScripts".
+We trained an ensemble system to stratify placental cells into 5 distinct populations. We used 3 base classfiers (InceptionV3, InceptionResNetV2, and Xception), which were fined tuned on our data set of histological images. 
+
+Add data used to fine tune our cell classifiers can be found in the folder "Dataset/CellClassifiersData". 
+
+Furthermore, the scripts used to train all base classifers are collected in "FineTuningScripts".
 
 For more details, please refer to our arXiv puplication:
 
