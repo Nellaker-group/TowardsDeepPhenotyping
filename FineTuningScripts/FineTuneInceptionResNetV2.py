@@ -26,12 +26,6 @@ from skimage import io
 
 #########
 #
-# Script with flags:
-#
-# python script.py ---> Does NOT save logs and best model (as default is False).
-#
-# python script.py --save=True ---> save logs and best model (based on best validation accuracy).
-#
 # Automatically detects the GPU with lowest memory usage and deploys the script there. The script
 # will be deployed only if there's a GPU with memory usage less than 0.5 (threshold can be
 # changed). 
@@ -55,13 +49,6 @@ os.environ["CUDA_VISIBLE_DEVICES"] = GPU
 
 base = InceptionResNetV2(weights = "imagenet", include_top = False, input_shape = (299, 299, 3))
 
-#########
-#
-# On top of the feature extraction module, add a neural network classifier with one 
-# hidden layer.
-#
-# Output of HFE module is 2048D - go down to 2048/4 = 512D.
-#
 #########
 
 x = base.output
