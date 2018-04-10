@@ -23,7 +23,7 @@ A notebook is also provided (Evaluate_RetinaNet.ipynb) That evaluates performanc
 
 ## Cell classification and deep embeddings
 
-We trained an ensemble system to stratify placental cells into 5 distinct populations.
+We trained an ensemble system to stratify placental cells into 5 distinct populations. We used 3 base classfiers (Inception, InceptionResNet, and Xception) which were fined tuned on our data set of histology images. Add data used to fine tuned our cell classifiers, can be found in the folder "Data/CellClassifiersData".
 
 ## Model Weights and test images
 
