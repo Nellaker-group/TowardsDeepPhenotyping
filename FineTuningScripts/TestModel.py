@@ -20,14 +20,6 @@ from keras import optimizers
 from skimage import io
 
 #########
-#
-# Check that the restored model has the same validation accuracy as when
-# it was saved during training.
-#
-# During training, the everage accuracy, over batches, is dysplayed.
-# So, at test time, there could a small difference.
-#
-#########
 
 parser = argparse.ArgumentParser()
 
@@ -52,7 +44,7 @@ model = load_model(MODEL)
 
 print("\nTesting: %s" %(MODEL), "\n")
 
-### VALIDATION ###
+### TESTING ###
 
 valid_folders = ["./data/test/CYT/", "./data/test/FIB/", "./data/test/HOF/", "./data/test/SYN/", "./data/test/VEN/"]
 
