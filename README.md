@@ -25,15 +25,15 @@ A notebook is also provided (Evaluate_RetinaNet.ipynb) That evaluates performanc
 
 We trained an ensemble system to stratify placental cells into 5 distinct populations. We used 3 base classfiers (InceptionV3, InceptionResNetV2, and Xception), which were fined tuned on our data set of histological images. 
 
-Add data used to fine tune our cell classifiers can be found in the folder "Datasets/CellClassifierData". 
+Add data used to fine tune our cell classifiers can be found in the folder "Datasets/CellClassifierData/". 
 
-Furthermore, the scripts used to train all base classifers are collected in "FineTuningScripts".
+Furthermore, the scripts used to train all base classifers are collected in "FineTuningScripts/".
 
-For more details, please refer to our arXiv puplication:
+For more details, please refer to our arXiv publication:
 
 ## Model Weights and test images
 
-All test images (19GB - 14k images) are provided [here.](https://drive.google.com/open?id=1EPu-FKU62zSKNBIVjQKSXvv53PexiNo2)
+Additional test images (19GB for about 14K images), that can be used as benchmark data, are provided [here.](https://drive.google.com/open?id=1EPu-FKU62zSKNBIVjQKSXvv53PexiNo2)
 
 | Model     | Weights                                                                     |
 |-----------|-----------------------------------------------------------------------------|
