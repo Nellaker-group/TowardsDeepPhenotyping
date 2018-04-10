@@ -27,7 +27,7 @@ We trained an ensemble system to stratify placental cells into 5 distinct popula
 
 Add data used to fine tune our cell classifiers can be found in the folder "Datasets/CellClassifierData/". 
 
-Furthermore, the scripts used to train, validate, and test all base classifers are collected in "FineTuningScripts/". The training for each of the base learner is identical. For instance, to fine tune InceptionV3, run:
+Furthermore, the scripts used to train, validate, and test all base classifers are collected in "FineTuningScripts/". The training for each of the base learner is identical (barring batch sizes). For instance, to fine tune InceptionV3, run:
 
 ```
 python FineTuneInceptionV3.py --save=True
