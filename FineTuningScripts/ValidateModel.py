@@ -20,14 +20,6 @@ from keras import optimizers
 from skimage import io
 
 #########
-#
-# Check that the restored model has the same validation accuracy as when
-# it was saved during training.
-#
-# During training, the everage accuracy, over batches, is dysplayed.
-# So, at test time, there could a small difference.
-#
-#########
 
 parser = argparse.ArgumentParser()
 
