@@ -2,7 +2,7 @@
 
 ![Pipeline overview](DLP.png)
 
-## Nuclei detector
+## Nuclei Detector
 
 All annotations are available in this repo along with training, validation and test images.
 
@@ -21,7 +21,7 @@ keras_retinanet/bin/evaluate.py --max-detections 500 --score-threshold 0.50 --sa
 A notebook is also provided (Evaluate_RetinaNet.ipynb) That evaluates performance on a large set of test images (14k).
 
 
-## Cell classification and Deep Embeddings
+## Cell Classification and Deep Embeddings
 
 We trained an ensemble system to stratify placental cells into 5 distinct populations. We used 3 base classfiers (InceptionV3, InceptionResNetV2, and Xception), which were fined tuned on our data set of histological images. 
 
@@ -31,7 +31,7 @@ Furthermore, the scripts used to train all base classifers are collected in "Fin
 
 For more details, please refer to our arXiv publication:
 
-## Model Weights and test images
+## Model Weights and Test Images
 
 Additional test images (19GB for about 14K images), that can be used as benchmark data, are provided [here.](https://drive.google.com/open?id=1EPu-FKU62zSKNBIVjQKSXvv53PexiNo2)
 
