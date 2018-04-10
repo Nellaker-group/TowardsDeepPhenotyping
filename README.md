@@ -25,7 +25,7 @@ A notebook is also provided (Evaluate_RetinaNet.ipynb) That evaluates performanc
 
 We trained an ensemble system to stratify placental cells into 5 distinct populations. We used 3 base classfiers (InceptionV3, InceptionResNetV2, and Xception), which were fined tuned on our data set of histological images. 
 
-Add data used to fine tune our cell classifiers can be found in the folder "Dataset/CellClassifiersData". 
+Add data used to fine tune our cell classifiers can be found in the folder "Datasets/CellClassifierData". 
 
 Furthermore, the scripts used to train all base classifers are collected in "FineTuningScripts".
 
