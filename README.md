@@ -25,18 +25,19 @@ A notebook is also provided (Evaluate_RetinaNet.ipynb) That evaluates performanc
 
 We trained an ensemble system to stratify placental cells into 5 distinct populations. We used 3 base classifiers (InceptionV3, InceptionResNetV2, and Xception), which were fined tuned on our data set of histological images. 
 
-Add data used to fine tune our cell classifiers can be found in the folder "Datasets/CellClassifierData/". 
+Add data used to fine tune cell classifiers can be found in the folder "Datasets/CellClassifierData/". 
 
 Furthermore, the scripts used to train, validate, and test all base classifers are collected in "FineTuningScripts/". The training for each of the base learner is identical (barring batch sizes). For instance, to fine tune InceptionV3, run:
 
 ```
 python FineTuneInceptionV3.py --save=True
 ```
-The command trains InceptionV3, saves training logs (by default the flag "save" is False), and stores the best model (assessed by validation accuracy).
+
+The command trains InceptionV3, saves training logs (by default the flag "save" is False), and stores the best model (as assessed by validation accuracy).
 
 For more details, please refer to our arXiv publication:
 
-## Model Weights and Test Images
+## Model Weights and Benchmark Data
 
 Additional test images (19GB for about 14K images), that can be used as benchmark data, are provided [here.](https://drive.google.com/open?id=1EPu-FKU62zSKNBIVjQKSXvv53PexiNo2)
 
