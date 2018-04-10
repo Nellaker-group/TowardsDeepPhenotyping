@@ -18,7 +18,7 @@ To evaluate our model (resnet50_csv_37.h5) on the test images, run:
 keras_retinanet/bin/evaluate.py --max-detections 500 --score-threshold 0.50 --save-path detections/ csv test_nuclei_annotations.csv class_mapping.txt ./snapshots/resnet50_csv_37.h5 
 ```
 
-A notebook is provided (Evaluate_RetinaNet.ipynb) to further validate this model on an additional set of test images (about 14K tiles).
+A notebook is provided (Evaluate_RetinaNet.ipynb) to further validate this model on an additional set of test images (14K tiles).
 
 ## Cell Classification
 
