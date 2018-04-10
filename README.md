@@ -18,10 +18,10 @@ To evaluate our model (resnet50_csv_37.h5) on the test images, run:
 keras_retinanet/bin/evaluate.py --max-detections 500 --score-threshold 0.50 --save-path detections/ csv test_nuclei_annotations.csv class_mapping.txt ./snapshots/resnet50_csv_37.h5 
 ```
 
-A notebook is also provided (Evaluate_RetinaNet.ipynb) That evaluates performance on a large set of test images (14k).
+A notebook is also provided (Evaluate_RetinaNet.ipynb) That evaluates performance on a large set of test images (about 14K).
 
 
-## Cell Classification and Deep Embeddings
+## Cell Classification
 
 We trained an ensemble system to stratify placental cells into 5 distinct populations. We used 3 base classifiers (InceptionV3, InceptionResNetV2, and Xception), which were fined tuned on our data set of histological images. 
 
@@ -37,9 +37,15 @@ The command trains InceptionV3, saves training logs (by default the flag "save" 
 
 For more details, please refer to our arXiv publication:
 
+## Pipeline Deployment on Whole Images
+
+
+
 ## Model Weights and Benchmark Data
 
 Additional test images (19GB for about 14K images), that can be used as benchmark data, are provided [here.](https://drive.google.com/open?id=1EPu-FKU62zSKNBIVjQKSXvv53PexiNo2)
+
+All models, fine tuned on our histological data sets, are freely available for download using the following links:
 
 | Model     | Weights                                                                     |
 |-----------|-----------------------------------------------------------------------------|
