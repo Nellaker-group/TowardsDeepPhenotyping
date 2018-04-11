@@ -36,7 +36,7 @@ The command trains InceptionV3, saves training logs (by default the flag "save" 
 
 For more details, please refer to our arXiv paper:
 
-[Towards Deep Cellular Phenotyping in Placental Histology](https://arxiv.org/abs/1804.03270)
+[Towards Deep Cellular Phenotyping in Placental Histology](https://arxiv.org/abs/1804.03270){:target="_blank"}
 
 ## Pipeline Deployment on Whole Images
 
