@@ -2,6 +2,24 @@
 
 ![Pipeline overview](DLP.png)
 
+```
+@ARTICLE{2018arXiv180403270F,
+   author = {{Ferlaino}, M. and {Glastonbury}, C.~A. and {Motta-Mejia}, C. and 
+	{Vatish}, M. and {Granne}, I. and {Kennedy}, S. and {Lindgren}, C.~M. and 
+	{Nell{\aa}ker}, C.},
+    title = "{Towards Deep Cellular Phenotyping in Placental Histology}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1804.03270},
+ primaryClass = "cs.CV",
+ keywords = {Computer Science - Computer Vision and Pattern Recognition},
+     year = 2018,
+    month = apr,
+   adsurl = {http://adsabs.harvard.edu/abs/2018arXiv180403270F},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
+
 ## Nuclei Detector
 
 All annotations are available in this repository along with training, validation and test images.
