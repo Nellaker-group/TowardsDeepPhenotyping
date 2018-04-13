@@ -3,7 +3,7 @@
 ![Pipeline overview](DLP.png)
 
 ```
-@ARTICLE{2018arXiv180403270F,
+@ARTICLE{TowardsDeepPhenotyping2018,
    author = {{Ferlaino}, M. and {Glastonbury}, C.~A. and {Motta-Mejia}, C. and 
 	{Vatish}, M. and {Granne}, I. and {Kennedy}, S. and {Lindgren}, C.~M. and 
 	{Nell{\aa}ker}, C.},
@@ -15,8 +15,6 @@ archivePrefix = "arXiv",
  keywords = {Computer Science - Computer Vision and Pattern Recognition},
      year = 2018,
     month = apr,
-   adsurl = {http://adsabs.harvard.edu/abs/2018arXiv180403270F},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
 
