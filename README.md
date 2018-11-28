@@ -3,18 +3,11 @@
 ![Pipeline overview](DLP.png)
 
 ```
-@ARTICLE{TowardsDeepPhenotyping2018,
-   author = {{Ferlaino}, M. and {Glastonbury}, C.~A. and {Motta-Mejia}, C. and 
-	{Vatish}, M. and {Granne}, I. and {Kennedy}, S. and {Lindgren}, C.~M. and 
-	{Nell{\aa}ker}, C.},
-    title = "{Towards Deep Cellular Phenotyping in Placental Histology}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1804.03270},
- primaryClass = "cs.CV",
- keywords = {Computer Science - Computer Vision and Pattern Recognition},
-     year = 2018,
-    month = apr,
+@article{ferlaino2018towards,
+  title={Towards Deep Cellular Phenotyping in Placental Histology},
+  author={Ferlaino, Michael and Glastonbury, Craig A and Motta-Mejia, Carolina and Vatish, Manu and Granne, Ingrid and Kennedy, Stephen and Lindgren, Cecilia M and Nell{\aa}ker, Christoffer},
+  journal={arXiv preprint arXiv:1804.03270},
+  year={2018}
 }
 ```
 
